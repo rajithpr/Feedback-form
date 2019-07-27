@@ -1,0 +1,131 @@
+
+body {
+    background-color: #00a0a0;
+    text-align: center;
+    font-family: 'courier-new';
+    font-size: 20px;
+    min-width: 320px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#form-outside{
+  background-color:  rgb(234,255,250);
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width:900px;
+  padding:10px;
+  padding-top:20px;
+}
+div{
+  display:block;
+}
+label{
+  cursor:default;
+}
+p{
+  display:block;
+  margin-block-start: 1.2em;
+  margin-block-end:1.2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+form{
+  display:block;
+  margin-top:0em;
+}
+.labels{
+  display:inline-block;
+  text-align:right;
+  width:40%;
+  padding:5px;
+  vertical-align:middle;
+  margin-top: 10px;
+}
+.right-side{
+  display:inline-block;
+  text-align:left;
+  width:48%;
+  vertical-align:middle;
+}
+.dropdown{
+  height:33px;
+  width:137px;
+  padding:5px;
+  margin:12px;
+  border:1px solid c0c0c1;
+  border-radius:2px;
+}
+ul{
+  display:block;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0em;
+  margin-inline-end:0em;
+  padding-inline-start:30px;
+}
+.radio{
+  position:relative;
+  left:-33px;
+  margin-left:10px;
+  display:block;
+  padding-bottom:10px;
+}
+.checkbox{
+  position:relative;
+  left:-33px;
+  margin-left:10px;
+  display:block;
+  padding-bottom:10px;
+}
+.rating{
+  float:left;
+  margin-right:6px;
+}
+.input-field{
+  height:20px;
+  width:220px;
+  padding:6px;
+  margin:12px;
+  border: 1px solid #c1c1c2;
+}
+#submit{
+  background-color: #59acf4;
+  font-size:1.2em;
+  color:white;
+  border-radius:5px;
+  border: 0px solid;
+  width:100px;
+  height:36px;
+  margin:10px;
+}
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
